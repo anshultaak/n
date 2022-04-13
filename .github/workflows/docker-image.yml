@@ -1,0 +1,21 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      -
+        name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: anshultaak2@gmail.com
+          password: Anshl@144
