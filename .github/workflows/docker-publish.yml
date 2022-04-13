@@ -39,7 +39,7 @@ jobs:
       - name: Log into registry
         uses: docker/login-action@28218f9b04b4f3f62068d7b6ce6ca5b26e35336c
         with:
-          registry: 734093235/anshu
+        
           username: anshultaak2@gmail.com
           password: Anshul@144
 
